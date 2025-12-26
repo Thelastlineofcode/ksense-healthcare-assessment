@@ -1,11 +1,23 @@
 {
     "name": "ksense-healthcare-assessment",
     "version": "1.0.0",
-    "description": "Assessment for Ksense Healthcare",
+    "description": "Patient risk scoring system with healthcare API integration",
     "main": "src/index.ts",
+    "author": "",
+    "license": "MIT",
+    "keywords": [
+        "healthcare",
+        "risk-scoring",
+        "typescript",
+        "api-integration"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
     "scripts": {
         "start": "ts-node src/index.ts",
-        "test": "ts-node src/test_scoring.ts"
+        "test": "ts-node src/test_scoring.ts",
+        "dry-run": "ts-node src/index.ts --dry-run"
     },
     "dependencies": {
         "axios": "^1.6.0",

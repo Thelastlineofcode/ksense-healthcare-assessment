@@ -7,3 +7,5 @@ build/
 *.js
 *.js.map
 .claude/
+Assessment_instructions.md
+SETUP.md
